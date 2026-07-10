@@ -66,7 +66,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
         Authorization: `Bearer ${resendApiKey}`,
       },
       body: JSON.stringify({
-        from: 'Stylomylo <hello@stylomylo.co>',
+        from: 'Stylomylo <hello@updates.stylomylo.co>',
         to: email,
         subject: "You're on the Stylomylo Early Access List!",
         html: `
@@ -132,7 +132,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
         Authorization: `Bearer ${resendApiKey}`,
       },
       body: JSON.stringify({
-        from: 'Stylomylo <hello@stylomylo.co>',
+        from: 'Stylomylo <hello@updates.stylomylo.co>',
         to: 'hello@stylomylo.co',
         subject: `New Waitlist Signup: ${email}`,
         html: `
