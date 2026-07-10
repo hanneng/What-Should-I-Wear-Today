@@ -1,0 +1,16 @@
+{
+  "name": "What Should I Wear Today",
+  "short_name": "Stylomylo",
+  "description": "AI-powered outfit recommendations based on weather, occasion and lifestyle.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4F46E5",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

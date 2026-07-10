@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://what-should-i-wear-today.pages.dev/sitemap.xml
